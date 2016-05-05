@@ -1,0 +1,23 @@
+position: relative;
+min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 100px;
+background-color: #f5f5f5;
+text-align: center;
+background-image: url('http://security.polito.it/img/polito.gif');
+background-repeat: no-repeat;
+background-position: left;
+}
+
+.user {
+  text-align: center;
+}
