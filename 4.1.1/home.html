@@ -11,6 +11,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="script5.1.1.js"></script>
+  <script type="text/javascript" src="script5.1.2.js"></script>
+  <script type="text/javascript" src="script5.1.3.js"></script>
+    <script type="text/javascript" src="script5.2.1.js"></script>
+
 </head>
 
 <body>
@@ -32,7 +38,6 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="cv.html">Curriculum Vitae</a></li>
           <li><a href="libretto.html">Libretto</a></li>
-          </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -43,6 +48,32 @@
       <p>Luogo di Nascita:&nbsp;<b>Catania</p></b>
       <p>Data di Nascita:&nbsp;<b>03/04/1991</p>
     </div>
+
+    <div class="operation">
+      <h2>Operazione 1:</h2>
+        <button onclick="Operation1()">Premere</button>
+        <p id="op1"></p>
+    </div>
+
+    <div class="operation">
+      <h2>Operazione 2:</h2>
+        <button onclick="Operation2()">Premere</button>
+    </div>
+
+    <!--Inizio Dropdown -->
+    <br><br>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Scelta Colore Pagina
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li onclick="white()"><a href="#">Default</a></li>
+        <li onclick="red()"><a href="#">Rosso</a></li>
+        <li onclick="blue()"><a href="#">Blue</a></li>
+      </ul>
+    </div>
+    <!--Fine Dropdown -->
 
     <footer>
      <div class="container">
