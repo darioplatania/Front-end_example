@@ -1,7 +1,7 @@
 function Operation1() {
     var x = prompt("Please insert the number..");
 
-    if (!isNaN(x) && Number.isInteger(x))
+    if (!isNaN(x))
     {
       if(x % 2 == 0)
       {
@@ -12,7 +12,7 @@ function Operation1() {
         document.getElementById("op1").innerHTML = "<br>Il numero inserito e': " + x + " DISPARI";
       }
     }
-    else if(!Number.isInteger(x))
+    else
     {
       alert ("Inserire un numero Intero!")
       return false;
